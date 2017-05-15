@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="spdatabase.spinc.servicethreadhandler">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".aidl.AidlActivity" />
+        <activity android:name=".binderservice.BindServiceActivity" />
+        <activity android:name=".handler.HandlerActivity" />
+        <activity android:name=".handlerwith_asynctask.HandlerWithAsyncActivity" />
+        <activity android:name=".messenger.MessengerActivity" />
+        <activity android:name=".thread.ThreadActivity" />
+        <activity android:name=".normalservice.ServiceActivity" />
+        <activity android:name=".scheduleService.ScheduleServiceActivity" />
+        <activity android:name=".intentService.IntentServiceActivity" />
+        <activity android:name=".resultReciever.ResultServiceActivity"></activity>
+    </application>
+
+</manifest>
