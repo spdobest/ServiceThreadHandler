@@ -10,57 +10,49 @@
         android:id="@+id/buttonHandler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Handler"
-        />
+        android:text="Handler" />
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/buttonThreadWithHandler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="THread WIth Handler"
-        />
+        android:text="THread WIth Handler" />
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/buttonService"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Service"
-        />
+        android:text="Service" />
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/buttonBinderService"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Handler"
-        />
+        android:text="Bind Service" />
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/buttonBinderServiceMessanger"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Binder Service WIth Messanger"
-        />
+        android:text="Binder Service WIth Messanger" />
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/buttonAIDL"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AIDL"
-        />
+        android:text="AIDL" />
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/buttonIPC"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="IPC"
-        />
+        android:text="IPC" />
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/buttonScheduleService"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Schedule Service"
-        />
+        android:text="Schedule Service" />
 
 
 </LinearLayout>

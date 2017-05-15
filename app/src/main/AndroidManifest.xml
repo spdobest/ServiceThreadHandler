@@ -25,7 +25,13 @@
         <activity android:name=".normalservice.ServiceActivity" />
         <activity android:name=".scheduleService.ScheduleServiceActivity" />
         <activity android:name=".intentService.IntentServiceActivity" />
-        <activity android:name=".resultReciever.ResultServiceActivity"></activity>
+        <activity android:name=".resultReciever.ResultServiceActivity" />
+
+        <service android:name=".normalservice.NormalService" />
+        <service
+            android:name=".binderservice.BindService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
