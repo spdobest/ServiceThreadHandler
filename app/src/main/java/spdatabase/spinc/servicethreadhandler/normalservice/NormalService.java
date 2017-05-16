@@ -2,9 +2,18 @@ package spdatabase.spinc.servicethreadhandler.normalservice;
 
 import android.app.Service;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.widget.Toast;
+
+import java.io.BufferedInputStream;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.URL;
+import java.net.URLConnection;
 
 /**
  * Created by webwerks on 15/5/17.
@@ -15,6 +24,7 @@ public class NormalService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
+
     }
 
     @Override

@@ -1,15 +1,15 @@
-package spdatabase.spinc.servicethreadhandler.aidl;
+package spdatabase.spinc.servicethreadhandler.alarm;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import spdatabase.spinc.servicethreadhandler.R;
 
-public class AidlActivity extends AppCompatActivity {
+public class AlarmActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_aidl);
+        setContentView(R.layout.activity_alarm);
     }
 }

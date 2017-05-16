@@ -54,5 +54,17 @@
         android:layout_height="wrap_content"
         android:text="Schedule Service" />
 
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/buttonAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm Service" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/buttonSyncAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sync Adapter" />
+
 
 </LinearLayout>
